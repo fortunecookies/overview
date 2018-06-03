@@ -35,21 +35,20 @@ GoodFortune is a form of public reputation for an Ethereum address. Because Fort
 Publicly verifiable. GoodFortune is secured by Ethereum, so it is pub.
 Luck that Follows You. Silos suck. Because your GoodFortune is 
 
-#### How is it calculated?
+#### The GoodFortune Formula
 A player's GoodFortune is calculated by totaling the GoodFortune of their FortuneCookies.
 
 The GoodFortune of a FortuneCookie is determined by the following X attributes:
-BatchNumber: Implies age. Lower is more desirable. The Genesis batch will be #1.
-CookieNumber: Overall FortuneCookie
-BatchQuantity: Implies rarity. Batches with more FortuneCookies will have a higher batch quantity.
-PreviousOwners
+⋅⋅* BatchNumber: Implies age. Lower is more desirable. The Genesis batch will be #1.
+⋅⋅* CookieNumber: Overall FortuneCookie
+⋅⋅* BatchQuantity: Implies rarity. Batches with more FortuneCookies will have a higher batch quantity.
+⋅⋅* PreviousOwners
 
+##### The GoodFortune Multiplier !! XOXO
+When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. If you're in the top 25% of GoodFortune player scores, you get a 50% GoodFortune bonus. Mutiply the GoodFortune of your CookieThis allows us to reward our loyal players.
 
 ### The GoodFortune Oracle
 The GoodFortune Oracle makes it simple to check the GoodFortune balance for a player address. The GoodFortune Oracle is a smart contract on Ethereum that serves two important functions. First, it contains the official formula for calculating GoodFortune the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as contains pointers to every official Batch contract
-
-### The GoodFortune Multiplier !! XOXO
-When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. If you're in the top 25% of GoodFortune player scores, you get a 50% GoodFortune bonus. Mutiply the GoodFortune of your CookieThis allows us to reward our loyal players.
 
 ## Spread Good Fortune in the World
 The Fortune Friends are committed to spreading good fortune, both digitally and IRL. It's our mission to use new technology as a powerful force of change, empowerment, and self-organization.
