@@ -58,7 +58,7 @@ GoodFortune is a form of public reputation for an Ethereum address. Because Fort
 
 Our smart contract, GoodFortune Resolver contains the calculation for 
 
-## Luck that Follows You
+## Luck that Follows You 
 
 
 
