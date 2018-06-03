@@ -17,9 +17,9 @@ The charm is the exterior shell of the FortuneCookie, and contains the surprise 
 The surprise is the goodness hidden inside your FortuneCookie that reveals itself to the player that opens the FortuneCookie for the first time. We achieve this by using your Ethereum address to generate pseudorandomness, which assigns you a resultant surprise from the available batch. Unlike regular fortune cookies, FortuneCookies surprises are actually made-for-you.
 
 ### The Batch
-Batches are like generations. Batches are limited edition, and can range from 1 to X FortuneCookies in each batch. Batches can define variables including the quantity of FortuneCookies produced, 
+FortuneCookies Batches are limited edition releases that can produce anywhere between 1 and 1 million new FortuneCookies. Batches are the main grouping of FortuneCookies in the game; FortuneCookies from the same Batch have the same Charm – and they usually share similar surprises. Players are restricted to holding only 1 FortuneCookie from each batch at a time.
 
-Batches are designed in collaboration with an artist.
+Batches are designed in collaboration with an artist. The entire experience of the batch, from the number of FortuneCookies produced, to the surprise hidden inside, are the vision of the artist.
 
 ### The Bake Sale
 Bake Sales are official events when new FortuneCookies are sold to the public.
@@ -27,8 +27,6 @@ View the [Bake Sale](www.fortunecookies.io/bakesale).
 
 ## Earn GoodFortune on Ethereum
 Fortune as a positive attribute. Many cultures believe that luck and good fortune are attributes that a person can possess. We wanted to make this a literal reality, so we made GoodFortune an attribute on Ethereum.
-
-
 
 ### Your GoodFortune Score
 
@@ -66,6 +64,8 @@ Behavioral; determined by gameplay.
 >We offer simple a simple API to request information about a FortuneCookies player address. Our services cache blockchain information, making it easier to use when you need it. Easily get FortuneCookies or get GoodFortune balance for a player address. Learn more about [The GoodFortune API] 
 >
 >GetFortuneCookies() returns an array of the FortuneCookies owned by an
+>
+>GetGoodFortune() returns the total GoodFortune possessed by a player address
 >
 >#### The GoodFortune Oracle
 >The GoodFortune Oracle is a smart contract on Ethereum that serves two important functions. First, it contains the official >formula for calculating GoodFortune the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as >contains pointers to every official Batch contract
