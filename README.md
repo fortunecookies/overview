@@ -73,28 +73,27 @@ The amount of GoodFortune possessed by an individual FortuneCookie is determined
 
 #### Fixed Attributes
 Fixed and determined during the production of the batch.
-##### 1. FortuneCookie ID
-Unique FortuneCookies number. The first FortuneCookie produced will be #1. 
 
-##### 2. Batch
-Overall batch ID number. The first batch produced will be #1. (Max value = 1) 
-```(LastBatchID-BatchID)^2```
-##### 3. Rarity
-Lorem ipsum
-```(1/Batch Quantity)```
-##### 4. Sequence
-Lorem ipsum
-```( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) )``` -- does this fail when it's the last cookie in the batch? What value should we assign or exception should we set?
-
-| Fixed Attributes              | Calculation                                                    |
-| ----------------------------- |----------------------------------------------------------------| 
-| ```FortuneCookienNumber```    | ``` ( LastFortuneCookieI D- FortuneCookieID ) ^ 2 ```          |
-| ```BatchNumber```             | ``` ( ( last ( BatchNumber ) ) - BatchNumber ) ^ 2 ```         |
-| ```BatchQuantity```           | ``` ( 1 / BatchQuantity ) ```                                  |
-| ```BatchSequence```           | ```( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) )```      |
+| Fixed Attributes              | Calculation                                                      |
+| ----------------------------- |------------------------------------------------------------------| 
+| ```FortuneCookienNumber```    | ``` ( LastFortuneCookieNumber - FortuneCookieNumber ) ^ 2 ```    |
+| ```BatchNumber```             | ``` ( ( last ( BatchNumber ) ) - BatchNumber ) ^ 2 ```           |
+| ```BatchQuantity```           | ``` ( 1 / BatchQuantity ) ```                                    |
+| ```BatchSequence```           | ``` ( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) ) ```      |
 
 #### Gameplay Multipliers
 Behavioral; determined by gameplay.
+
+| Gameplay Multipliers                 | Calculation                                                                 |
+| ------------------------------------ |-----------------------------------------------------------------------------| 
+| ``` SalePrice ```                    | ``` ( LastFortuneCookieI D- FortuneCookieID ) ^ 2 ```                       |
+| ``` PriceChange ```                  | ``` ( ( last ( BatchNumber ) ) - BatchNumber ) ^ 2 ```                      |
+| ``` InitialOwnerGoodFortune ```      | ``` (Top 25%: 2x) (25%-50%: 1.5x) (50%-75%: 1.25x) (75%-100%: 1.1x) ```     |
+| ``` InitialOwnerPublicTweet ```      | ``` 1.1 ```                                                                 |
+| ``` PreviousOwners ```               | ``` 1.05 ^ n ```                                                            |
+
+
+
 * Sale Price: (std deviations from the mean) is the multiplier. (( or should this be last sale price? - it would be more realtime and punishing ))
 * Change in Price: what has the price done
 * Initial Owner GoodFortune Multiplier: XOXO !! The GoodFortune Multiplier !! XOXO When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. We reserve the right to refuse transactions from any address choose, especially if we beileve it to be an aggregation service.
