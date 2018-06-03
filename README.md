@@ -35,6 +35,8 @@ GoodFortune is a form of public reputation for an Ethereum address. Because Fort
 Publicly verifiable. GoodFortune is secured by Ethereum, so it is pub.
 Luck that Follows You. Silos suck. Because your GoodFortune is 
 
+If you care about the details of how your GoodFortune score is calculated, continue reading. If not, jump to "Spread Good Fortune in the World."
+
 #### The GoodFortune Formula
 A player's GoodFortune is calculated by totaling the GoodFortune of their FortuneCookies.
 
