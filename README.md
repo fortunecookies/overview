@@ -19,14 +19,9 @@ info
 info
 info
 
-FortuneCookies is a cryptoartgame.
-info
-info
-info
-info
-info
 
 continue reading to learn more about the details
+
 .....................................................
 
 
