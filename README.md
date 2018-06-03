@@ -34,31 +34,32 @@ continue reading to learn more about the details
 .....................................................
 
 
-# The FortuneCookie
+# Collect Digital FortuneCookies
 FortuneCookies are collectible charms with a surprise.
 
 ## The Charm
 
 ## The Surprise
 
-# Designed by Artists
-
-# Produced in Batches
-
+## The Batch
 Batches are like generations.
 
-# Sold in Bake Sales
+## The Artist
+
+## The Bake Sale
 
 # Earn GoodFortune on Ethereum
 
 ## Your GoodFortune Score
 
-### How is it Calculated?
+
 GoodFortune is a form of public reputation for an Ethereum address. Because FortuneCookies live on the public Ethereum blockchain, their ownership can be publicly tracked. 
 
-Our smart contract, GoodFortune Resolver contains the calculation for 
-
 ## Luck that Follows You 
+
+## How is it Calculated?
+Our smart contract, the "GoodFortune Resolver" contains the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as contains pointers to every official Batch contract
+
 
 
 
