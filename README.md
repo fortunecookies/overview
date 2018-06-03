@@ -24,8 +24,6 @@ Batches are designed in collaboration with an artist.
 ### The Bake Sale
 Bake Sales are official events when new FortuneCookies are sold to the public.
 View the [Bake Sale](www.fortunecookies.io/bakesale).
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-![Bake Sale Screen View](https://github.com/fortunecookies/overview/FC_Bake-Sale.png)
 
 ## Earn GoodFortune on Ethereum
 Fortune as a positive attribute. Many cultures believe that luck and good fortune are attributes that a person can possess. We wanted to make this a literal reality, so we made GoodFortune an attribute on Ethereum.
@@ -35,13 +33,22 @@ Fortune as a positive attribute. Many cultures believe that luck and good fortun
 GoodFortune is a form of public reputation for an Ethereum address. Because FortuneCookies live on the public Ethereum blockchain, their ownership can be publicly tracked. 
 
 Publicly verifiable. GoodFortune is secured by Ethereum, so it is pub.
-
 Luck that Follows You. Silos suck. Because your GoodFortune is 
 
-### How is it Calculated?
-Our smart contract, the "GoodFortune Resolver" contains the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as contains pointers to every official Batch contract
+#### How is it calculated?
+A player's GoodFortune is calculated by totaling the GoodFortune of their FortuneCookies.
 
-#### Special GoodFortune Multiplier !! XOXO
+The GoodFortune of a FortuneCookie is determined by the following X attributes:
+BatchNumber: Implies age. Lower is more desirable. The Genesis batch will be #1.
+CookieNumber: Overall FortuneCookie
+BatchQuantity: Implies rarity. Batches with more FortuneCookies will have a higher batch quantity.
+PreviousOwners
+
+
+### The GoodFortune Oracle
+The GoodFortune Oracle makes it simple to check the GoodFortune balance for a player address. The GoodFortune Oracle is a smart contract on Ethereum that serves two important functions. First, it contains the official formula for calculating GoodFortune the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as contains pointers to every official Batch contract
+
+### The GoodFortune Multiplier !! XOXO
 When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. If you're in the top 25% of GoodFortune player scores, you get a 50% GoodFortune bonus. Mutiply the GoodFortune of your CookieThis allows us to reward our loyal players.
 
 ## Spread Good Fortune in the World
