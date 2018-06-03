@@ -1,12 +1,9 @@
 # Introduction to FortuneCookies
-Who says you can't buy good fortune?
+Who says you can't buy good fortune? FortubeCookies are part game, art, and luck on Ethereum.
 
-FortuneCookies is a game.
-info
-info
-info
+FortuneCookies is a game and the objective is luck. Players collect digital FortuneCookies to earn GoodFortune on Ethereum. GoodFortune is a form of digital luck that allows players to exhibit special powers in others applications.
 
-FortuneCookies is art.
+FortuneCookies is art. Each FortuneCookie batch is designed in collaboration with a special artist. Everything from the number of FortuneCookies produced, to the surprise inside, 
 info
 info
 info
