@@ -19,10 +19,15 @@ The surprise is the goodness hidden inside your FortuneCookie that reveals itsel
 ### The Batch
 FortuneCookies Batches are limited edition releases that can produce anywhere between 1 and 1 million new FortuneCookies. Batches are the main grouping of FortuneCookies in the game; FortuneCookies from the same Batch have the same Charm – and they usually share similar surprises. Players are restricted to holding only 1 FortuneCookie from each batch at a time.
 
-Batches are designed in collaboration with an artist. The entire experience of the batch, from the number of FortuneCookies produced, to the surprise hidden inside, are the vision of the artist.
+Batches are designed in collaboration with an artist. The entire experience of the batch, from the number of FortuneCookies produced, to the charm and the surprise hidden inside, are the vision of the artist.
 
 ### The Bake Sale
-Bake Sales are official events when new FortuneCookies are sold to the public.
+Bake Sales are official FortuneCookies events when new FortuneCookies are sold to the public. Most Bake Sales will occur on our website, however some may occur offline or in person for special occasions. Ba
+
+Sale Types
+* Reverse Auction: fixed quantity; high > low variable price; sold sequentially.
+* Flash Sale: fixed quantity; fixed price; parallel sales, first come first served until gone.
+
 View the [Bake Sale](www.fortunecookies.io/bakesale).
 
 ## Earn GoodFortune on Ethereum
