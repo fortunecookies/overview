@@ -28,6 +28,8 @@ View the [Bake Sale](www.fortunecookies.io/bakesale).
 ## Earn GoodFortune on Ethereum
 Fortune as a positive attribute. Many cultures believe that luck and good fortune are attributes that a person can possess. We wanted to make this a literal reality, so we made GoodFortune an attribute on Ethereum.
 
+
+
 ### Your GoodFortune Score
 
 GoodFortune is a form of public reputation for an Ethereum address. Because FortuneCookies live on the public Ethereum blockchain, their ownership can be publicly tracked. 
@@ -42,29 +44,31 @@ A player's GoodFortune is calculated by totaling the GoodFortune of their Fortun
 
 The amount of GoodFortune possessed by a FortuneCookie is determined by a combination of fixed and variable attributes.
 
-##### Fixed Attributes
+##### FortuneCookie Attributes
 Fixed and determined during the production of the batch.
 * FortuneCookie ID: Overall number for the FortuneCookies game.
 * Batch ID: Number that implies age. Lower is batches came first, andn are more desirable. The Genesis batch will be #1.
 * Batch Sequence: FortuneCookie number in the batch
 * Batch Quantity: Implies rarity. Batches with more FortuneCookies will have a higher batch quantity.
 
-##### Variable Attributes
+##### Gameplay Multipliers
 Behavioral; determined by gameplay.
-* Sale Price: Higher is better.
+* Sale Price: Higher is better. (( or should this be last sale price? - it would be more realtime and punishing ))
 * Initial Owner GoodFortune Multiplier: XOXO !! The GoodFortune Multiplier !! XOXO When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. If you're in the top 25% of GoodFortune player scores, you get a 50% GoodFortune bonus. Mutiply the GoodFortune of your CookieThis allows us to reward our loyal players. There are limits that need to be set according to big an "acceptable" GoodFortune amount for the most extremely loyal player, because we need to reserve the right to refuse transactions from an address we believe to be from an aggregation service. The multiplier is higher for loyal players.
-  * Tier 1: Determine the tiers
-  * Tier 2: Determine the tiers
-  * Tier 3: Determine the tiers
-  * Tier 4: Determine the tiers
-* Initial Owner Public Tweet: One time opportunity during the bake sale.
-* Previous Owners: Quantity, more is better. (Changes over time)
+  * MVP - 25%: Determine the tiers
+  * 25% - 50%: Determine the tiers
+  * 50% - 75%: Determine the tiers
+  * 75% - 100%: Determine the tiers
+* Initial Owner Public Tweet: One time opportunity during the bake sale. (+10% multiplier)
+* Previous Owners: Quantity, more is better. (Changes over time) (
 
-### The GoodFortune API
-The GoodFortune API makes it simple to check the GoodFortune balance for a player address. Our services cache blockchain information, making it easier to use when you need it.
-
-### The GoodFortune Oracle
- The GoodFortune Oracle is a smart contract on Ethereum that serves two important functions. First, it contains the official formula for calculating GoodFortune the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as contains pointers to every official Batch contract
+>### The GoodFortune API
+>We offer simple a simple API to request information about a FortuneCookies player address. Our services cache blockchain information, making it easier to use when you need it. Easily get FortuneCookies or get GoodFortune balance for a player address. Learn more about [The GoodFortune API] 
+>
+>GetFortuneCookies() returns an array of the FortuneCookies owned by an
+>
+>#### The GoodFortune Oracle
+>The GoodFortune Oracle is a smart contract on Ethereum that serves two important functions. First, it contains the official >formula for calculating GoodFortune the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as >contains pointers to every official Batch contract
 
 ## Spread Good Fortune in the World
 The Fortune Friends are committed to spreading good fortune, both digitally and IRL. It's our mission to use new technology as a powerful force of change, empowerment, and self-organization.
