@@ -55,7 +55,8 @@ Behavioral; determined by gameplay.
 * Previous Owners: Quantity, more is better. (Changes over time)
 
 ##### XOXO !! The GoodFortune Multiplier !! XOXO
-When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. If you're in the top 25% of GoodFortune player scores, you get a 50% GoodFortune bonus. Mutiply the GoodFortune of your CookieThis allows us to reward our loyal players.
+When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. If you're in the top 25% of GoodFortune player scores, you get a 50% GoodFortune bonus. Mutiply the GoodFortune of your CookieThis allows us to reward our loyal players. There are limits that need to be set according to big an "acceptable" GoodFortune amount for the most extremely loyal player, because we need to reserve the right to refuse transactions from an address we believe to be from an aggregation service.
+
 The multiplier is higher for loyal players.
 * 
 
