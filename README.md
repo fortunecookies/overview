@@ -65,7 +65,9 @@ If you care about the details of how your GoodFortune score is calculated, conti
 ### The GoodFortune Formula
 A player's GoodFortune is calculated by totaling the GoodFortune of their FortuneCookies. 
 
-   GoodFortune(player) = sum((GoodFortune(FortuneCookie1)), (GoodFortune(FortuneCookie2)), ...)
+>
+>   GoodFortune(player) = sum((GoodFortune(FortuneCookie1)), (GoodFortune(FortuneCookie2)), ...)
+>
 
 The amount of GoodFortune possessed by an individual FortuneCookie is determined by a combination of fixed and variable .   attributes.
 
