@@ -65,7 +65,7 @@ If you care about the details of how your GoodFortune score is calculated, conti
 ### The GoodFortune Formula
 A player's GoodFortune is calculated by totaling the GoodFortune of their FortuneCookies. 
 
-'''GoodFortune(player) = sum((GoodFortune(FortuneCookie1)), (GoodFortune(FortuneCookie2)), ...)'''
+```GoodFortune(player) = sum((GoodFortune(FortuneCookie1)), (GoodFortune(FortuneCookie2)), ...)```
 
 The amount of GoodFortune possessed by an individual FortuneCookie is determined by a combination of fixed and variable   attributes.
 
@@ -73,8 +73,9 @@ The amount of GoodFortune possessed by an individual FortuneCookie is determined
 
 #### Fixed Attributes
 Fixed and determined during the production of the batch.
-* FortuneCookie ID: Unique FortuneCookies number. The first FortuneCookie produced will be #1. (LastFortuneCookieID-FortuneCookieID)^2 <- or what curve do we want to use?
-* Batch: Overall batch ID number. The first batch produced will be #1. (Max value = 1) (LastBatchID-BatchID)^2
+* FortuneCookie ID: Unique FortuneCookies number. The first FortuneCookie produced will be #1. 
+```(LastFortuneCookieID-FortuneCookieID)^2 <- or what curve do we want to use?```
+* Batch: Overall batch ID number. The first batch produced will be #1. (Max value = 1) ```(LastBatchID-BatchID)^2```
 * Rarity: (1/Batch Quantity) (Max value = 1)
 * Sequence: ( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) ) -- does this fail when it's the last cookie in the batch? What value should we assign or exception should we set?
 
