@@ -44,8 +44,6 @@ FortuneCookies are collectible charms with a surprise.
 ## The Batch
 Batches are like generations.
 
-## The Artist
-
 ## The Bake Sale
 
 # Earn GoodFortune on Ethereum
@@ -60,7 +58,12 @@ GoodFortune is a form of public reputation for an Ethereum address. Because Fort
 ## How is it Calculated?
 Our smart contract, the "GoodFortune Resolver" contains the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as contains pointers to every official Batch contract
 
+# Spread Good Fortune in the World
 
+## Artists
+
+## FortuneCookies Foundation
+We donate 10% of every sale to the FortuneCookies Foundation, a non-profit committed to spreading good fortune by investing in social impact bounties.
 
 
 
