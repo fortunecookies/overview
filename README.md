@@ -40,14 +40,19 @@ A player's GoodFortune is calculated by totaling the GoodFortune of their Fortun
 
 The amount of GoodFortune possessed by a FortuneCookie is determined by a combination of explicit and implicit attributes.
 
-Explicit Attributes: don't change over time, are fixed and determined by the batch.
-* Batch Number: Implies age. Lower is more desirable. The Genesis batch will be #1.
-* Cookie Number: Overall FortuneCookie
+##### Explicit Attributes
+Don't change over time, are fixed and determined by the batch.
+* FortuneCookie ID: Overall number for the FortuneCookies game.
+* Batch ID: Number that implies age. Lower is batches came first, andn are more desirable. The Genesis batch will be #1.
+* Batch Sequence: FortuneCookie number in the batch
 * Batch Quantity: Implies rarity. Batches with more FortuneCookies will have a higher batch quantity.
 
-Implicit Attributes: behavioral and change over time, determined by gameplay.
+##### Implicit Attributes
+Behavioral and change over time, determined by gameplay.
 * Sale Price:
-* Previous Owners:
+* Previous Owners: Quantity
+* Initial Owner Public Tweet: One time opportunity during the bake sale.
+* 
 
 ##### The GoodFortune Multiplier !! XOXO
 When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. If you're in the top 25% of GoodFortune player scores, you get a 50% GoodFortune bonus. Mutiply the GoodFortune of your CookieThis allows us to reward our loyal players.
