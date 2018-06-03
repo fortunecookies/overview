@@ -73,11 +73,18 @@ The amount of GoodFortune possessed by an individual FortuneCookie is determined
 
 #### Fixed Attributes
 Fixed and determined during the production of the batch.
-* FortuneCookie ID: Unique FortuneCookies number. The first FortuneCookie produced will be #1. 
+##### FortuneCookie ID
+Unique FortuneCookies number. The first FortuneCookie produced will be #1. 
 ```(LastFortuneCookieID-FortuneCookieID)^2 <- or what curve do we want to use?```
-* Batch: Overall batch ID number. The first batch produced will be #1. (Max value = 1) ```(LastBatchID-BatchID)^2```
-* Rarity: (1/Batch Quantity) (Max value = 1)
-* Sequence: ( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) ) -- does this fail when it's the last cookie in the batch? What value should we assign or exception should we set?
+##### Batch
+Overall batch ID number. The first batch produced will be #1. (Max value = 1) 
+```(LastBatchID-BatchID)^2```
+##### Rarity
+Lorem ipsum
+```(1/Batch Quantity) (Max value = 1)```
+##### Sequence
+Lorem ipsum
+```( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) )``` -- does this fail when it's the last cookie in the batch? What value should we assign or exception should we set?
 
 #### Gameplay Multipliers
 Behavioral; determined by gameplay.
