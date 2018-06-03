@@ -3,7 +3,7 @@ FortuneCookies is a game of art and luck on Ethereum. Each FortuneCookie is a co
 
 FortuneCookies are produced in limited edition batches designed in collaboration with a unique artist. Everything from the design of the charm and the surprise inside, to the number of FortuneCookies produced, are part of the artist's intended experience. Crack one open to see for yourself!
 
-FortuneCookies batches are sold during official Bake Sales, which will be pre-announced on official FortuneCookies Twitter, Medium, and Telegram accounts. Batches are limited edition, so when they're gone they're truly gone. No more reprints can ever be made. Visit the [Bake Sale](www.fortunecookies.io/bakesale). FortuneCookies may be available for resale at popular collectibles exchanges [RareBits](www.rarebits.io), [SuperRare](www.superrare.co), or [OpenSea](www.opensea.io).
+FortuneCookies batches are sold during official Bake Sales, which will be pre-announced on official FortuneCookies Twitter, Medium, and Telegram accounts at least a week prior. Batches are limited edition, so when they're gone they're truly gone – no more reprints can ever be made. Visit the [Official Bake Sale](www.fortunecookies.io/bakesale) to buy your FortuneCookie. If the Bake Sale is closed, FortuneCookies may be available for resale at popular collectibles exchanges like [RareBits](www.rarebits.io), [SuperRare](www.superrare.co), or [OpenSea](www.opensea.io).
 
 FortuneCookies are secured by Ethereum. Technically, FortuneCookies are ERC721 tradeable tokens on the Ethereum blockchain (see ERC721: Non-Fungible Tokens). Because your FortuneCookies live on Ethereum, your GoodFortune will last for generations.
 
@@ -13,8 +13,10 @@ Who says you can't buy good fortune?
 FortuneCookies are collectible charms with a surprise.
 
 ### The Charm
+The charm is the exterior shell of the FortuneCookie, and contains the surprise hidden inside. All charms are the same for a whole batch, which makes it easy to associate your FortuneCookie with a batch when it's in your wallet – since the charm also functions as your collectibles icon.
 
 ### The Surprise
+
 
 ### The Batch
 Batches are like generations. Batches are limited edition, and can range from 1 to X FortuneCookies in each batch.
