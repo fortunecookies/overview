@@ -16,16 +16,6 @@ info
 
 Who says you can't buy good fortune? 
 
-.....................................................
-ABSTRACT
-
-• COLLECT DIGITAL FORTUNECOOKIES
-• EARN GOODFORTUNE ON ETHEREUM
-• SPREAD GOOD FORTUNE IN THE WORLD
-
-.....................................................
-
-
 ## Collect Digital FortuneCookies
 FortuneCookies are collectible charms with a surprise.
 
