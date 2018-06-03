@@ -40,7 +40,7 @@ Luck that Follows You. Silos suck. Because your GoodFortune is
 ### How is it Calculated?
 Our smart contract, the "GoodFortune Resolver" contains the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as contains pointers to every official Batch contract
 
-### Special GoodFortune Multiplier !! XOXO
+#### Special GoodFortune Multiplier !! XOXO
 When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. If you're in the top 25% of GoodFortune player scores, you get a 50% GoodFortune bonus. Mutiply the GoodFortune of your CookieThis allows us to reward our loyal players.
 
 ## Spread Good Fortune in the World
