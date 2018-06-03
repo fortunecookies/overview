@@ -58,10 +58,16 @@ Behavioral; determined by gameplay.
 When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. If you're in the top 25% of GoodFortune player scores, you get a 50% GoodFortune bonus. Mutiply the GoodFortune of your CookieThis allows us to reward our loyal players. There are limits that need to be set according to big an "acceptable" GoodFortune amount for the most extremely loyal player, because we need to reserve the right to refuse transactions from an address we believe to be from an aggregation service.
 
 The multiplier is higher for loyal players.
-* 
+* Tier 1: Determine the tiers
+* Tier 2: Determine the tiers
+* Tier 3: Determine the tiers
+* Tier 4: Determine the tiers
+
+### The GoodFortune API
+The GoodFortune API makes it simple to check the GoodFortune balance for a player address. Our services cache blockchain information, making it easier to use when you need it.
 
 ### The GoodFortune Oracle
-The GoodFortune Oracle makes it simple to check the GoodFortune balance for a player address. The GoodFortune Oracle is a smart contract on Ethereum that serves two important functions. First, it contains the official formula for calculating GoodFortune the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as contains pointers to every official Batch contract
+ The GoodFortune Oracle is a smart contract on Ethereum that serves two important functions. First, it contains the official formula for calculating GoodFortune the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as contains pointers to every official Batch contract
 
 ## Spread Good Fortune in the World
 The Fortune Friends are committed to spreading good fortune, both digitally and IRL. It's our mission to use new technology as a powerful force of change, empowerment, and self-organization.
@@ -71,7 +77,3 @@ We fairly compensate artists with between 10-20% of every sale, and 1.25% of eve
 
 ### FortuneCookies Foundation
 We donate 10% of every sale to the FortuneCookies Foundation, a non-profit committed to spreading good fortune by investing in social impact bounties that matter to our community. Submit an idea at [FortuneCookies Foundation](http://fortunecookies.foundation). What change will you bounty?
-
-
-
-
