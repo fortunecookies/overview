@@ -24,6 +24,7 @@ Batches are designed in collaboration with an artist.
 ### The Bake Sale
 Bake Sales are official events when new FortuneCookies are sold to the public.
 View the [Bake Sale](www.fortunecookies.io/bakesale).
+![Bake Sale Screen View](https://github.com/fortunecookies/overview/FC_Bake-Sale.png "FortuneCookies Bake Sale")
 
 ## Earn GoodFortune on Ethereum
 Fortune as a positive attribute. Many cultures believe that luck and good fortune are attributes that a person can possess. We wanted to make this a literal reality, so we made GoodFortune an attribute on Ethereum.
