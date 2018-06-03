@@ -1,7 +1,9 @@
 # Introduction to FortuneCookies
 FortuneCookies is a game of art and luck on Ethereum. Each FortuneCookie is a collectible good luck charm that contains a surprise! Players collect and trade FortuneCookies to maximize their GoodFortune, a form of digital luck that exhibits special powers.
 
-Each FortuneCookies batch is designed in collaboration with a unique artist. Everything from the design of the charm and the surprise inside, to the number of FortuneCookies produced and sale mechanism, is part of the artist's intended experience.
+FortuneCookies are produced in limited edition batches. Each FortuneCookies batch is designed in collaboration with a unique artist. Everything from the design of the charm and the surprise inside, to the number of FortuneCookies produced and sale mechanism, is part of the artist's intended experience.
+
+FortuneCookies are sold during official Bake Sales. FortuneCookies are sold during official Bake Sales. FortuneCookies are sold during official Bake Sales. FortuneCookies are sold during official Bake Sales. FortuneCookies are sold during official Bake Sales.
 
 FortuneCookies are secured by Ethereum. Technically, FortuneCookies are ERC721 tradeable tokens on the Ethereum blockchain (see ERC721: Non-Fungible Tokens). Because your FortuneCookies live on Ethereum, your GoodFortune will last for generations.
 
