@@ -75,21 +75,22 @@ The amount of GoodFortune possessed by an individual FortuneCookie is determined
 
 #### Fixed Attributes
 Fixed and determined during the production of the batch.
-* FortuneCookie ID: Unique FortuneCookies number. The first FortuneCookie produced will be #1. (Max value = 1)
-* Batch: Overall batch ID number. The first batch produced will be #1. (Max value = 1)
+* FortuneCookie ID: Unique FortuneCookies number. The first FortuneCookie produced will be #1. (LastFortuneCookieID-FortuneCookieID)^2 <- or what curve do we want to use?
+* Batch: Overall batch ID number. The first batch produced will be #1. (Max value = 1) (LastBatchID-BatchID)^2
 * Rarity: (1/Batch Quantity) (Max value = 1)
 * Sequence: ( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) ) -- does this fail when it's the last cookie in the batch? What value should we assign or exception should we set?
 
 #### Gameplay Multipliers
 Behavioral; determined by gameplay.
 * Sale Price: (std deviations from the mean) is the multiplier. (( or should this be last sale price? - it would be more realtime and punishing ))
-* Initial Owner GoodFortune Multiplier: XOXO !! The GoodFortune Multiplier !! XOXO When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. If you're in the top 25% of GoodFortune player scores, you get a 50% GoodFortune bonus. Mutiply the GoodFortune of your CookieThis allows us to reward our loyal players. There are limits that need to be set according to big an "acceptable" GoodFortune amount for the most extremely loyal player, because we need to reserve the right to refuse transactions from an address we believe to be from an aggregation service. The multiplier is higher for loyal players.
+* Change in Price: what has the price done
+* Initial Owner GoodFortune Multiplier: XOXO !! The GoodFortune Multiplier !! XOXO When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. We reserve the right to refuse transactions from any address choose, especially if we beileve it to be an aggregation service.
   * MVP - 25%: Determine the tiers
   * 25% - 50%: Determine the tiers
   * 50% - 75%: Determine the tiers
   * 75% - 100%: Determine the tiers
 * Initial Owner Public Tweet: One time opportunity during the bake sale. (+10% multiplier)
-* Previous Owners: Quantity, more is better. (Changes over time) (
+* Previous Owners: 1.05^n // note: cost is 3.5% to exchange owners, so net 1.5%
 
 >#### The GoodFortune API
 >We offer simple a simple API to request information about a FortuneCookies player address. Our services cache blockchain information, making it easier to use when you need it. Easily get FortuneCookies or get GoodFortune balance for a player address. Learn more about [The GoodFortune API] 
