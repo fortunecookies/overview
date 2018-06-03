@@ -1,6 +1,3 @@
-# Who says you can't buy good fortune?
-Introduction to FortuneCookies
-
 # Introduction to FortuneCookies
 FortuneCookies is a game.
 info
