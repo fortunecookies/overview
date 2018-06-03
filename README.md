@@ -16,8 +16,8 @@ FortuneCookies are secured by Ethereum. Technically, FortuneCookies are ERC721 t
 2. Earn GoodFortune on Ethereum
    1. Your GoodFortune Score   
    2. The GoodFortune Formula   
-     1. Fixed Attributes   
-     2. Gameplay Multipliers    
+           1. Fixed Attributes         
+           2. Gameplay Multipliers          
    3. The GoodFortune API    
    4. The GoodFortune Oracle   
 3. Spread Good Fortune in the World
