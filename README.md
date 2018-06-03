@@ -63,7 +63,7 @@ Our smart contract, the "GoodFortune Resolver" contains the calculation for dete
 We fairly compensate artists with between 10-20% of every sale, and 1.25% of every resale.
 
 ### FortuneCookies Foundation
-We donate 10% of every sale to the FortuneCookies Foundation, a non-profit committed to spreading good fortune by investing in social impact bounties. Learn more about the [FortuneCookies Foundation](https://fortunecookies.foundation).
+We donate 10% of every sale to the FortuneCookies Foundation, a non-profit committed to spreading good fortune by investing in social impact bounties. Learn more about the [FortuneCookies Foundation](http://fortunecookies.foundation).
 
 
 
