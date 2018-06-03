@@ -62,7 +62,7 @@ Behavioral; determined by gameplay.
 * Initial Owner Public Tweet: One time opportunity during the bake sale. (+10% multiplier)
 * Previous Owners: Quantity, more is better. (Changes over time) (
 
->### The GoodFortune API
+>#### The GoodFortune API
 >We offer simple a simple API to request information about a FortuneCookies player address. Our services cache blockchain information, making it easier to use when you need it. Easily get FortuneCookies or get GoodFortune balance for a player address. Learn more about [The GoodFortune API] 
 >
 >GetFortuneCookies() returns an array of the FortuneCookies owned by an
