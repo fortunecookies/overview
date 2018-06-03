@@ -86,11 +86,12 @@ Lorem ipsum
 Lorem ipsum
 ```( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) )``` -- does this fail when it's the last cookie in the batch? What value should we assign or exception should we set?
 
-| Fixed Attributes        | Calculation                                              | Description  |
-| ----------------------- |:--------------------------------------------------------:| --------:|
-| Number                  | ``` ( LastFortuneCookieI D- FortuneCookieID ) ^ 2 ```    | overall unique ```fortunecookiesID``` number     |
-| Batch                   | ``` ( LastBatchID - BatchID ) ^ 2 ```                    | overall unique ```batchID``` number |
-| Rarity                  | ``` ( 1 / BatchQuantity ) ```                            |    $1 |
+| Fixed Attributes              | Calculation                                                    |
+| ----------------------------- |----------------------------------------------------------------| 
+| ```FortuneCookienNumber```    | ``` ( LastFortuneCookieI D- FortuneCookieID ) ^ 2 ```          |
+| ```BatchNumber```             | ``` ( ( last ( BatchNumber ) ) - BatchNumber ) ^ 2 ```         |
+| ```BatchQuantity```           | ``` ( 1 / BatchQuantity ) ```                                  |
+| ```BatchSequence```           | ```( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) )```      |
 
 #### Gameplay Multipliers
 Behavioral; determined by gameplay.
