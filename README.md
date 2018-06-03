@@ -38,11 +38,16 @@ Luck that Follows You. Silos suck. Because your GoodFortune is
 #### The GoodFortune Formula
 A player's GoodFortune is calculated by totaling the GoodFortune of their FortuneCookies.
 
-The GoodFortune of a FortuneCookie is determined by the following X attributes:
-* BatchNumber: Implies age. Lower is more desirable. The Genesis batch will be #1.
-* CookieNumber: Overall FortuneCookie
-* BatchQuantity: Implies rarity. Batches with more FortuneCookies will have a higher batch quantity.
-* PreviousOwners
+The amount of GoodFortune possessed by a FortuneCookie is determined by a combination of explicit and implicit attributes.
+
+Explicit Attributes: don't change over time, are fixed and determined by the batch.
+* Batch Number: Implies age. Lower is more desirable. The Genesis batch will be #1.
+* Cookie Number: Overall FortuneCookie
+* Batch Quantity: Implies rarity. Batches with more FortuneCookies will have a higher batch quantity.
+
+Implicit Attributes: behavioral and change over time, determined by gameplay.
+* Sale Price:
+* Previous Owners:
 
 ##### The GoodFortune Multiplier !! XOXO
 When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. If you're in the top 25% of GoodFortune player scores, you get a 50% GoodFortune bonus. Mutiply the GoodFortune of your CookieThis allows us to reward our loyal players.
