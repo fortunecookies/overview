@@ -98,6 +98,10 @@ Behavioral; determined by gameplay.
 * Initial Owner Public Tweet: One time opportunity during the bake sale. (+10% multiplier)
 * Previous Owners: 1.05^n // note: cost is 3.5% to exchange owners, so net 1.5%
 
+#### GoodFortune Curve
+
+Even with all the formulas above applied, it could become more difficult to earn GoodFortune over time. If we chose to pursue that route
+
 >#### The GoodFortune API
 >We offer simple a simple API to request information about a FortuneCookies player address. Our services cache blockchain information, making it easier to use when you need it. Easily get FortuneCookies or get GoodFortune balance for a player address. Learn more about [The GoodFortune API] 
 >
