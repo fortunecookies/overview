@@ -38,24 +38,26 @@ Luck that Follows You. Silos suck. Because your GoodFortune is
 #### The GoodFortune Formula
 A player's GoodFortune is calculated by totaling the GoodFortune of their FortuneCookies.
 
-The amount of GoodFortune possessed by a FortuneCookie is determined by a combination of explicit and implicit attributes.
+The amount of GoodFortune possessed by a FortuneCookie is determined by a combination of fixed and variable attributes.
 
-##### Explicit Attributes
-Don't change over time, are fixed and determined by the batch.
+##### Fixed Attributes
+Fixed and determined during the production of the batch.
 * FortuneCookie ID: Overall number for the FortuneCookies game.
 * Batch ID: Number that implies age. Lower is batches came first, andn are more desirable. The Genesis batch will be #1.
 * Batch Sequence: FortuneCookie number in the batch
 * Batch Quantity: Implies rarity. Batches with more FortuneCookies will have a higher batch quantity.
 
-##### Implicit Attributes
-Behavioral and change over time, determined by gameplay.
-* Sale Price:
-* Previous Owners: Quantity
+##### Variable Attributes
+Behavioral; determined by gameplay.
+* Sale Price: Higher is better.
+* Initial Owner GoodFortune Multiplier:
 * Initial Owner Public Tweet: One time opportunity during the bake sale.
-* 
+* Previous Owners: Quantity, more is better. (Changes over time)
 
-##### The GoodFortune Multiplier !! XOXO
+##### XOXO !! The GoodFortune Multiplier !! XOXO
 When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. If you're in the top 25% of GoodFortune player scores, you get a 50% GoodFortune bonus. Mutiply the GoodFortune of your CookieThis allows us to reward our loyal players.
+The multiplier is higher for loyal players.
+* 
 
 ### The GoodFortune Oracle
 The GoodFortune Oracle makes it simple to check the GoodFortune balance for a player address. The GoodFortune Oracle is a smart contract on Ethereum that serves two important functions. First, it contains the official formula for calculating GoodFortune the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as contains pointers to every official Batch contract
