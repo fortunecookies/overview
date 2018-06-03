@@ -7,6 +7,11 @@ FortuneCookies batches are sold during official Bake Sales, which will be pre-an
 
 FortuneCookies are secured by Ethereum. Technically, FortuneCookies are ERC721 tradeable tokens on the Ethereum blockchain (see ERC721: Non-Fungible Tokens). Because your FortuneCookies live on Ethereum, your GoodFortune will last for generations.
 
+## Table of Contents
+1. Collect Digital FortuneCookies
+2. Earn GoodFortune on Ethereum
+3. Spread Good Fortune in the World
+
 ## Collect Digital FortuneCookies
 FortuneCookies are collectible charms with a surprise.
 
@@ -22,9 +27,7 @@ FortuneCookies Batches are limited edition releases that can produce anywhere be
 Batches are designed in collaboration with an artist. The entire experience of the batch, from the number of FortuneCookies produced, to the charm and the surprise hidden inside, are the vision of the artist.
 
 ### The Bake Sale
-Bake Sales are official FortuneCookies events when new FortuneCookies are sold to the public. Most Bake Sales will occur on our website, however some may occur offline or in person for special occasions. Ba
-
-Sale Types
+Bake Sales are official FortuneCookies events when new FortuneCookies are sold to the public. Most Bake Sales will occur on our website, however some may occur offline or in person for special occasions. Bake Sale types include:
 * Reverse Auction: fixed quantity; high > low variable price; sold sequentially.
 * Vanilla Auction: Use cases include time-based drip auction (like CryptoKitties), single auction
 * Dutch Auction: 
