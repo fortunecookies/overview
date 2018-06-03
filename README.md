@@ -17,7 +17,7 @@ The charm is the exterior shell of the FortuneCookie, and contains the surprise 
 The surprise is the goodness hidden inside your FortuneCookie that reveals itself to the player that opens the FortuneCookie for the first time. We achieve this by using your Ethereum address to generate pseudorandomness, which assigns you a resultant surprise from the available batch. Unlike regular fortune cookies, FortuneCookies surprises are actually made-for-you.
 
 ### The Batch
-Batches are like generations. Batches are limited edition, and can range from 1 to X FortuneCookies in each batch.
+Batches are like generations. Batches are limited edition, and can range from 1 to X FortuneCookies in each batch. Batches can define variables including the quantity of FortuneCookies produced, 
 
 Batches are designed in collaboration with an artist.
 
@@ -39,10 +39,10 @@ Luck that Follows You. Silos suck. Because your GoodFortune is
 A player's GoodFortune is calculated by totaling the GoodFortune of their FortuneCookies.
 
 The GoodFortune of a FortuneCookie is determined by the following X attributes:
-⋅⋅* BatchNumber: Implies age. Lower is more desirable. The Genesis batch will be #1.
-⋅⋅* CookieNumber: Overall FortuneCookie
-⋅⋅* BatchQuantity: Implies rarity. Batches with more FortuneCookies will have a higher batch quantity.
-⋅⋅* PreviousOwners
+* BatchNumber: Implies age. Lower is more desirable. The Genesis batch will be #1.
+* CookieNumber: Overall FortuneCookie
+* BatchQuantity: Implies rarity. Batches with more FortuneCookies will have a higher batch quantity.
+* PreviousOwners
 
 ##### The GoodFortune Multiplier !! XOXO
 When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. If you're in the top 25% of GoodFortune player scores, you get a 50% GoodFortune bonus. Mutiply the GoodFortune of your CookieThis allows us to reward our loyal players.
