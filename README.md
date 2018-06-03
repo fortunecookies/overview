@@ -40,7 +40,17 @@ FortuneCookies Batches are limited edition releases that can produce anywhere be
 Batches are designed in collaboration with an artist. The entire experience of the batch, from the number of FortuneCookies produced, to the charm and the surprise hidden inside, are the vision of the artist.
 
 ### The Bake Sale
-Bake Sales are official FortuneCookies events when new FortuneCookies are sold to the public. Most Bake Sales will occur on our website, however some may occur offline or in person for special occasions. Bake Sale types include:
+Bake Sales are official FortuneCookies events when new FortuneCookies are sold to the public. Most Bake Sales will occur on our website, however some may occur offline or in person for special occasions.
+
+| BAKE SALE TYPES                      | DESCRIPTION                                                                 |
+| ------------------------------------ |-----------------------------------------------------------------------------| 
+| Reverse Auction                      | fixed quantity; high > low variable price; sold sequentially.                       |
+| VanillaAuction                       | Use cases include time-based drip auction (like CryptoKitties), single auction                      |
+| Dutch Auction                        | .         |
+| Reverse Dutch Auction                |    .                                                                 |
+| Flash Sale                           | fixed quantity; fixed price; parallel sales, first come first served until gone.                                                            |
+| Buy Now                              | Can be applied to any sale; a price that is above current market rate and allows you to purchase the Next FortuneCookie.   |
+
 * Reverse Auction: fixed quantity; high > low variable price; sold sequentially.
 * Vanilla Auction: Use cases include time-based drip auction (like CryptoKitties), single auction
 * Dutch Auction: 
