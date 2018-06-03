@@ -69,19 +69,20 @@ A player's GoodFortune is calculated by totaling the GoodFortune of their Fortun
 >   GoodFortune(player) = sum((GoodFortune(FortuneCookie1)), (GoodFortune(FortuneCookie2)), ...)
 >
 
-The amount of GoodFortune possessed by an individual FortuneCookie is determined by a combination of fixed and variable .   attributes.
+The amount of GoodFortune possessed by an individual FortuneCookie is determined by a combination of fixed and variable   attributes.
 
+(FortuneCookieID)^(sqrt/FortuneCookieID)*
 
 #### Fixed Attributes
 Fixed and determined during the production of the batch.
-* FortuneCookie ID: Overall number for the FortuneCookies game.
-* Batch ID: Number that implies age. Lower is batches came first, andn are more desirable. The Genesis batch will be #1.
-* Batch Sequence: FortuneCookie number in the batch
-* Batch Quantity: Implies rarity. Batches with more FortuneCookies will have a higher batch quantity.
+* FortuneCookie ID: Unique FortuneCookies number. The first FortuneCookie produced will be #1. (Max value = 1)
+* Batch: Overall batch ID number. The first batch produced will be #1. (Max value = 1)
+* Rarity: (1/Batch Quantity) (Max value = 1)
+* Sequence: ( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) ) -- does this fail when it's the last cookie in the batch? What value should we assign or exception should we set?
 
 #### Gameplay Multipliers
 Behavioral; determined by gameplay.
-* Sale Price: Higher is better. (( or should this be last sale price? - it would be more realtime and punishing ))
+* Sale Price: (std deviations from the mean) is the multiplier. (( or should this be last sale price? - it would be more realtime and punishing ))
 * Initial Owner GoodFortune Multiplier: XOXO !! The GoodFortune Multiplier !! XOXO When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. If you're in the top 25% of GoodFortune player scores, you get a 50% GoodFortune bonus. Mutiply the GoodFortune of your CookieThis allows us to reward our loyal players. There are limits that need to be set according to big an "acceptable" GoodFortune amount for the most extremely loyal player, because we need to reserve the right to refuse transactions from an address we believe to be from an aggregation service. The multiplier is higher for loyal players.
   * MVP - 25%: Determine the tiers
   * 25% - 50%: Determine the tiers
