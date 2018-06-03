@@ -26,7 +26,11 @@ Bake Sales are official FortuneCookies events when new FortuneCookies are sold t
 
 Sale Types
 * Reverse Auction: fixed quantity; high > low variable price; sold sequentially.
+* Vanilla Auction: Use cases include time-based drip auction (like CryptoKitties), single auction
+* Dutch Auction: 
+* Reverse Dutch Auction:
 * Flash Sale: fixed quantity; fixed price; parallel sales, first come first served until gone.
+* Buy Now: Can be applied to any sale; a price that is above current market rate and allows you to purchase the Next FortuneCookie.
 
 View the [Bake Sale](www.fortunecookies.io/bakesale).
 
