@@ -53,10 +53,10 @@ Fixed and determined during the production of the batch.
 Behavioral; determined by gameplay.
 * Sale Price: Higher is better.
 * Initial Owner GoodFortune Multiplier: XOXO !! The GoodFortune Multiplier !! XOXO When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. If you're in the top 25% of GoodFortune player scores, you get a 50% GoodFortune bonus. Mutiply the GoodFortune of your CookieThis allows us to reward our loyal players. There are limits that need to be set according to big an "acceptable" GoodFortune amount for the most extremely loyal player, because we need to reserve the right to refuse transactions from an address we believe to be from an aggregation service. The multiplier is higher for loyal players.
-..* Tier 1: Determine the tiers
-..* Tier 2: Determine the tiers
-..* Tier 3: Determine the tiers
-..* Tier 4: Determine the tiers
+  * Tier 1: Determine the tiers
+  * Tier 2: Determine the tiers
+  * Tier 3: Determine the tiers
+  * Tier 4: Determine the tiers
 * Initial Owner Public Tweet: One time opportunity during the bake sale.
 * Previous Owners: Quantity, more is better. (Changes over time)
 
