@@ -3,7 +3,7 @@ FortuneCookies is a game of art and luck on Ethereum. Each FortuneCookie is a co
 
 __FortuneCookies is a game.__ Players collect and trade FortuneCookies to maximize their GoodFortune, a form of digital luck that exhibits special powers.
 
-__FortuneCookies is art.__ Each FortuneCookie batch is designed in collaboration with a special artist. Everything from the number of FortuneCookies produced, to the surprise inside, 
+__FortuneCookies are art.__ Each FortuneCookies batch is designed in collaboration with a unique artist. Everything from the design of the charm and the surprise inside, to the number of FortuneCookies produced and sale mechanism, is part of the artist's intended experience.
 
 __FortuneCooies is crypto.__
 info
