@@ -7,6 +7,8 @@ FortuneCookies batches are sold during official Bake Sales, which will be pre-an
 
 FortuneCookies are secured by Ethereum. Technically, FortuneCookies are ERC721 tradeable tokens on the Ethereum blockchain (see ERC721: Non-Fungible Tokens). Because your FortuneCookies live on Ethereum, your GoodFortune will last for generations.
 
+<img width="1624" alt="screen shot 2018-06-03 at 9 58 52 pm" src="https://user-images.githubusercontent.com/5216274/40894689-5f81af4a-6779-11e8-8d1b-c0c35da84ed8.png">
+
 ## Table of Contents
 1. Collect Digital FortuneCookies
    1. The Charm    
