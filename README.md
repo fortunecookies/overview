@@ -88,18 +88,18 @@ The amount of GoodFortune possessed by an individual FortuneCookie is determined
 Certain FortuneCookie attributes are fixed and determined during the production of the batch. Other gameplay multipliers affect the GoodFortune value of a FortuneCookie and are behavioral and determined by gameplay dynamics. GoodFortune is harder to earn over time. This is the GoodFortune Difficulty Curve. (Is this bias already built into the weighting of the variables?)
 
 
-| TYPE              | VARIABLE                      | FORMULA                                                          |
-| ----------------- | ----------------------------- |------------------------------------------------------------------| 
-| FIXED             | ```BatchNumber```             | ``` ( ( last ( BatchNumber ) ) - BatchNumber ) ^ 2 ```           |
-| FIXED             | ```BatchQuantity```           | ``` ( 1 / BatchQuantity ) ```                                    |
-| SET ON SALE       | ```FortuneCookieNumber```    | ``` ( LastFortuneCookieNumber - FortuneCookieNumber ) ^ 2 ```    |
-| SET ON SALE       | ```BatchSequence```           | ``` ( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) ) ```      |
-| SET ON SALE       | ```SalePrice```               | (std deviations from the mean) is the multiplier. (( or should this be last sale price? - it would be more realtime and punishing ))    |
-| SET ON OPEN          | ```InitialOwnerGoodFortune```           | ``` (Top 25%: 2x) (25%-50%: 1.5x) (50%-75%: 1.25x) (75%-100%: 1.1x) ``` XOXO !! The GoodFortune Multiplier !! XOXO When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. We reserve the right to refuse transactions from any address choose, especially if we beileve it to be an aggregation service.                                    |
-| SET ON OPEN          | ```InitialOwnerPublicTweet```           | ``` 1.1 ``` +10% multiplier, one time opportunity during the bake sale.      |
-| GAMEPLAY          | ```PreviousOwners```           | ``` 1.05 ^ n ``` note: cost is 3.5% to exchange owners, so net 1.5%       |
-| GAMEPLAY          | ```PriceChange```             | what has the price done           |
-| DIFFICULTY          | ```TotalGoodFortuneOutstanting```           | ``` (0 - 1,000,000: 1) (1,000,001 - 10,000,000: 0.8) (10,000,001 - 100,000,000: 0.5) (100,000,001 - 1,000,000,000: 0.2) ```       |
+| MEANING              | TYPE              | VARIABLE                      | FORMULA                                                          |
+| ----------------- | ----------------- | ----------------------------- |------------------------------------------------------------------| 
+| Vintage             | Fixed             | ```BatchNumber```             | ``` ( ( last ( BatchNumber ) ) - BatchNumber ) ^ 2 ```           |
+| Rarity             | Fixed             | ```BatchQuantity```           | ``` ( 1 / BatchQuantity ) ```                                    |
+| Vintage             | Set on Sale       | ```FortuneCookieNumber```    | ``` ( LastFortuneCookieNumber - FortuneCookieNumber ) ^ 2 ```    |
+| Vintage             | Set on Sale       | ```BatchSequence```           | ``` ( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) ) ```      |
+| Value             | Set on Sale       | ```SalePrice```               | (std deviations from the mean) is the multiplier. (( or should this be last sale price? - it would be more realtime and punishing ))    |
+| Loyalty             | Set on Open          | ```InitialOwnerGoodFortune```           | ``` (Top 25%: 2x) (25%-50%: 1.5x) (50%-75%: 1.25x) (75%-100%: 1.1x) ``` XOXO !! The GoodFortune Multiplier !! XOXO When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. We reserve the right to refuse transactions from any address choose, especially if we beileve it to be an aggregation service.                                    |
+| Community             | Set on Open          | ```InitialOwnerPublicTweet```           | ``` 1.1 ``` +10% multiplier, one time opportunity during the bake sale.      |
+| Community             | Gameplay          | ```PreviousOwners```           | ``` 1.05 ^ n ``` note: cost is 3.5% to exchange owners, so net 1.5%       |
+| Value             | Gameplay          | ```PriceChange```             | what has the price done           |
+| Conversion Rate             | Difficulty          | ```TotalGoodFortuneOutstanting```           | ``` (0 - 1,000,000: 1) (1,000,001 - 10,000,000: 0.8) (10,000,001 - 100,000,000: 0.5) (100,000,001 - 1,000,000,000: 0.2) ```       |
 
 ### The GoodFortune API
 We offer simple a simple API to request information about a FortuneCookies player address. Our services cache blockchain information, so it's easier/free to lookup information from the ```GoodFortune Oracle```. Easily ```getFortuneCookies``` or ```getGoodFortune``` balance for a player address. Learn more about [The GoodFortune API] 
