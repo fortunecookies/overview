@@ -120,10 +120,10 @@ The GoodFortune Oracle is a smart contract on Ethereum that serves two important
 ## Spread Good Fortune in the World
 The Fortune Friends are committed to spreading good fortune, both digitally and IRL. It's our mission to use new technology as a powerful force of change, empowerment, and self-organization.
 
-<img width="921" alt="screen shot 2018-06-03 at 8 50 21 pm" src="https://user-images.githubusercontent.com/5216274/40893525-d06fbcce-676f-11e8-8a70-67a8fd92516b.png">
-
 ### Artist Compensation
 We fairly compensate artists with between 10-20% of every sale, and 1.25% of every resale.
+
+<img width="921" alt="screen shot 2018-06-03 at 8 50 21 pm" src="https://user-images.githubusercontent.com/5216274/40893525-d06fbcce-676f-11e8-8a70-67a8fd92516b.png">
 
 ### FortuneCookies Foundation
 We donate 10% of every sale to the FortuneCookies Foundation, a non-profit committed to spreading good fortune by investing in social impact bounties that matter to our community. Submit an idea at [FortuneCookies Foundation](http://fortunecookies.foundation). What change will you bounty?
