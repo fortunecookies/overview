@@ -32,11 +32,6 @@ FortuneCookies are collectible charms with a surprise.
 
 <img width="1619" alt="screen shot 2018-06-03 at 8 53 53 pm" src="https://user-images.githubusercontent.com/5216274/40893592-53d9384c-6770-11e8-80c0-f5eb582f2b85.png">
 
-### The Batch
-FortuneCookies Batches are limited edition releases that can produce anywhere between 1 and 1 million new FortuneCookies. Batches are the main grouping of FortuneCookies in the game; FortuneCookies from the same Batch have the same Charm – and they usually share similar surprises. Players are restricted to holding only 1 FortuneCookie from each batch at a time.
-
-Batches are designed in collaboration with an artist. The entire experience of the batch, from the number of FortuneCookies produced, to the charm and the surprise hidden inside, are the vision of the artist.
-
 ### The Charm
 The charm is the exterior shell of the FortuneCookie, and contains the surprise hidden inside. All charms are the same for a whole batch, which makes it easy to associate your FortuneCookie with a batch when it's in your wallet – since the charm also functions as your collectibles icon.
 
@@ -58,11 +53,15 @@ The surprise is the goodness hidden inside your FortuneCookie that reveals itsel
 
 ![image](https://user-images.githubusercontent.com/5216274/40895004-0c645644-677b-11e8-8d19-f46e8b3c0f8c.png)
 
+### The Batch
+FortuneCookies Batches are limited edition releases that can produce anywhere between 1 and 1 million new FortuneCookies. Batches are the main grouping of FortuneCookies in the game; FortuneCookies from the same Batch have the same Charm – and they usually share similar surprises. Players are restricted to holding only 1 FortuneCookie from each batch at a time.
+
+Batches are designed in collaboration with an artist. The entire experience of the batch, from the number of FortuneCookies produced, to the charm and the surprise hidden inside, are the vision of the artist.
+
 ### The Bake Sale
 Bake Sales are official FortuneCookies events when new FortuneCookies are sold to the public. Most Bake Sales will occur on our website, however some may occur offline or in person for special occasions.
 
 <img width="1406" alt="fc_bake-sale" src="https://user-images.githubusercontent.com/5216274/40892892-ca9100b0-676a-11e8-8374-81d099248ff5.png">
-
 
 | SALE TYPES                           | DESCRIPTION                                                                 |
 | ------------------------------------ |-----------------------------------------------------------------------------| 
