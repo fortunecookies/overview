@@ -51,13 +51,6 @@ Bake Sales are official FortuneCookies events when new FortuneCookies are sold t
 | Flash Sale                           | fixed quantity; fixed price; parallel sales, first come first served until gone.                                                            |
 | Buy Now                              | Can be applied to any sale; a price that is above current market rate and allows you to purchase the Next FortuneCookie.   |
 
-* Reverse Auction: fixed quantity; high > low variable price; sold sequentially.
-* Vanilla Auction: Use cases include time-based drip auction (like CryptoKitties), single auction
-* Dutch Auction: 
-* Reverse Dutch Auction:
-* Flash Sale: fixed quantity; fixed price; parallel sales, first come first served until gone.
-* Buy Now: Can be applied to any sale; a price that is above current market rate and allows you to purchase the Next FortuneCookie.
-
 View the [Bake Sale](www.fortunecookies.io/bakesale).
 
 ## Earn GoodFortune on Ethereum
@@ -96,23 +89,11 @@ Behavioral; determined by gameplay.
 
 | Gameplay Multipliers                 | Calculation                                                                 |
 | ------------------------------------ |-----------------------------------------------------------------------------| 
-| ``` SalePrice ```                    | ``` ( LastFortuneCookieI D- FortuneCookieID ) ^ 2 ```                       |
-| ``` PriceChange ```                  | ``` ( ( last ( BatchNumber ) ) - BatchNumber ) ^ 2 ```                      |
-| ``` InitialOwnerGoodFortune ```      | ``` (Top 25%: 2x) (25%-50%: 1.5x) (50%-75%: 1.25x) (75%-100%: 1.1x) ```     |
-| ``` InitialOwnerPublicTweet ```      | ``` 1.1 ```                                                                 |
-| ``` PreviousOwners ```               | ``` 1.05 ^ n ```                                                            |
-
-
-
-* Sale Price: (std deviations from the mean) is the multiplier. (( or should this be last sale price? - it would be more realtime and punishing ))
-* Change in Price: what has the price done
-* Initial Owner GoodFortune Multiplier: XOXO !! The GoodFortune Multiplier !! XOXO When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. We reserve the right to refuse transactions from any address choose, especially if we beileve it to be an aggregation service.
-  * MVP - 25%: Determine the tiers
-  * 25% - 50%: Determine the tiers
-  * 50% - 75%: Determine the tiers
-  * 75% - 100%: Determine the tiers
-* Initial Owner Public Tweet: One time opportunity during the bake sale. (+10% multiplier)
-* Previous Owners: 1.05^n // note: cost is 3.5% to exchange owners, so net 1.5%
+| ``` SalePrice ```                    | (std deviations from the mean) is the multiplier. (( or should this be last sale price? - it would be more realtime and punishing ))                       |
+| ``` PriceChange ```                  | what has the price done                      |
+| ``` InitialOwnerGoodFortune ```      | ``` (Top 25%: 2x) (25%-50%: 1.5x) (50%-75%: 1.25x) (75%-100%: 1.1x) ``` XOXO !! The GoodFortune Multiplier !! XOXO When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. We reserve the right to refuse transactions from any address choose, especially if we beileve it to be an aggregation service.    |
+| ``` InitialOwnerPublicTweet ```      | ``` 1.1 ``` +10% multiplier, one time opportunity during the bake sale.     |
+| ``` PreviousOwners ```               | ``` 1.05 ^ n ``` note: cost is 3.5% to exchange owners, so net 1.5%         |
 
 #### GoodFortune Curve
 
