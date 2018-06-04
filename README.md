@@ -77,10 +77,9 @@ A player's GoodFortune is calculated by totaling the GoodFortune of their Fortun
 
 The amount of GoodFortune possessed by an individual FortuneCookie is determined by a combination of fixed and variable   attributes.
 
-(FortuneCookieID)^(sqrt/FortuneCookieID)*
+``` FIXED ATTRIBUTES * GAMEPLAY MULTIPLIERS * DIFFICULTY ```
 
-#### Fixed Attributes
-Fixed and determined during the production of the batch.
+Certain FortuneCookie attributes are fixed and determined during the production of the batch.
 
 | FIXED ATTTIBUTES              | FORMULA                                                          |
 | ----------------------------- |------------------------------------------------------------------| 
@@ -89,8 +88,7 @@ Fixed and determined during the production of the batch.
 | ```BatchQuantity```           | ``` ( 1 / BatchQuantity ) ```                                    |
 | ```BatchSequence```           | ``` ( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) ) ```      |
 
-#### Gameplay Multipliers
-Behavioral; determined by gameplay.
+Gameplay multipliers affect the GoodFortune value of a FortuneCookie. Behavioral; determined by gameplay.
 
 | GAMEPLAY MULTIPLIERS                 | FORMULA                                                                     |
 | ------------------------------------ |-----------------------------------------------------------------------------| 
@@ -100,18 +98,16 @@ Behavioral; determined by gameplay.
 | ``` InitialOwnerPublicTweet ```      | ``` 1.1 ``` +10% multiplier, one time opportunity during the bake sale.     |
 | ``` PreviousOwners ```               | ``` 1.05 ^ n ``` note: cost is 3.5% to exchange owners, so net 1.5%         |
 
-#### GoodFortune Difficulty Curve
+GoodFortune is harder to earn over time. This iis the GoodFortune Difficulty Curve. (Is this bias already built into the weighting of the variables?)
 
-Even with all the formulas above applied, it could become more difficult to earn GoodFortune over time. If we chose to pursue that route
-
-#### The GoodFortune API
-We offer simple a simple API to request information about a FortuneCookies player address. Our services cache blockchain information, making it easier to use when you need it. Easily get FortuneCookies or get GoodFortune balance for a player address. Learn more about [The GoodFortune API] 
+### The GoodFortune API
+We offer simple a simple API to request information about a FortuneCookies player address. Our services cache blockchain information, so it's easier/free to lookup information from the ```GoodFortune Oracle```. Easily ```getFortuneCookies``` or ```getGoodFortune``` balance for a player address. Learn more about [The GoodFortune API] 
 
 ```GetFortuneCookies() returns an array of the FortuneCookies owned by an```
 
 ```GetGoodFortune() returns the total GoodFortune possessed by a player address```
 
-#### The GoodFortune Oracle
+### The GoodFortune Oracle
 The GoodFortune Oracle is a smart contract on Ethereum that serves two important functions. First, it contains the official formula for calculating GoodFortune the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as contains pointers to every official Batch contract
 
 ## Spread Good Fortune in the World
