@@ -40,6 +40,8 @@ The charm is the exterior shell of the FortuneCookie, and contains the surprise 
 ### The Surprise
 The surprise is the goodness hidden inside your FortuneCookie that reveals itself to the player that opens the FortuneCookie for the first time. We achieve this by using your Ethereum address to generate pseudorandomness, which assigns you a resultant surprise from the available batch. Unlike regular fortune cookies, FortuneCookies surprises are actually made-for-you.
 
+![image](https://user-images.githubusercontent.com/5216274/40895004-0c645644-677b-11e8-8d19-f46e8b3c0f8c.png)
+
 ### The Batch
 FortuneCookies Batches are limited edition releases that can produce anywhere between 1 and 1 million new FortuneCookies. Batches are the main grouping of FortuneCookies in the game; FortuneCookies from the same Batch have the same Charm – and they usually share similar surprises. Players are restricted to holding only 1 FortuneCookie from each batch at a time.
 
