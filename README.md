@@ -42,7 +42,7 @@ Batches are designed in collaboration with an artist. The entire experience of t
 ### The Bake Sale
 Bake Sales are official FortuneCookies events when new FortuneCookies are sold to the public. Most Bake Sales will occur on our website, however some may occur offline or in person for special occasions.
 
-
+<img width="1406" alt="fc_bake-sale" src="https://user-images.githubusercontent.com/5216274/40892892-ca9100b0-676a-11e8-8374-81d099248ff5.png">
 
 #### Sale Types
 
