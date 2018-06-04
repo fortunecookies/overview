@@ -35,6 +35,8 @@ FortuneCookies are collectible charms with a surprise.
 ### The Charm
 The charm is the exterior shell of the FortuneCookie, and contains the surprise hidden inside. All charms are the same for a whole batch, which makes it easy to associate your FortuneCookie with a batch when it's in your wallet – since the charm also functions as your collectibles icon.
 
+<img width="1591" alt="screen shot 2018-06-03 at 10 01 12 pm" src="https://user-images.githubusercontent.com/5216274/40894757-c33f2cd8-6779-11e8-9b4e-aa8876117f6b.png">
+
 ### The Surprise
 The surprise is the goodness hidden inside your FortuneCookie that reveals itself to the player that opens the FortuneCookie for the first time. We achieve this by using your Ethereum address to generate pseudorandomness, which assigns you a resultant surprise from the available batch. Unlike regular fortune cookies, FortuneCookies surprises are actually made-for-you.
 
