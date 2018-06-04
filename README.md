@@ -99,15 +99,15 @@ Behavioral; determined by gameplay.
 | ``` InitialOwnerPublicTweet ```      | ``` 1.1 ``` +10% multiplier, one time opportunity during the bake sale.     |
 | ``` PreviousOwners ```               | ``` 1.05 ^ n ``` note: cost is 3.5% to exchange owners, so net 1.5%         |
 
-#### GoodFortune Curve
+#### GoodFortune Difficulty Curve
 
 Even with all the formulas above applied, it could become more difficult to earn GoodFortune over time. If we chose to pursue that route
 
 >#### The GoodFortune API
 >We offer simple a simple API to request information about a FortuneCookies player address. Our services cache blockchain information, making it easier to use when you need it. Easily get FortuneCookies or get GoodFortune balance for a player address. Learn more about [The GoodFortune API] 
->
->GetFortuneCookies() returns an array of the FortuneCookies owned by an
->
+
+```GetFortuneCookies() returns an array of the FortuneCookies owned by an```
+
 >GetGoodFortune() returns the total GoodFortune possessed by a player address
 >
 >#### The GoodFortune Oracle
