@@ -100,6 +100,13 @@ Gameplay multipliers affect the GoodFortune value of a FortuneCookie. Behavioral
 
 GoodFortune is harder to earn over time. This iis the GoodFortune Difficulty Curve. (Is this bias already built into the weighting of the variables?)
 
+| TOTAL GOODFORTUNE IN WORLD                  | DIFFICULTY                                                          |
+| ------------------------------------------- |------------------------------------------------------------------| 
+| 0 - 1,000,000                               | ``` * 1 ```    |
+| 1,000,001 - 10,000,000                      | ``` * 0.8 ```           |
+| 10,000,001 - 100,000,000                    | ``` * 0.5 ```                                    |
+| 100,000,001 - 1,000,000,000                 | ``` * 0.2 ```      |
+
 ### The GoodFortune API
 We offer simple a simple API to request information about a FortuneCookies player address. Our services cache blockchain information, so it's easier/free to lookup information from the ```GoodFortune Oracle```. Easily ```getFortuneCookies``` or ```getGoodFortune``` balance for a player address. Learn more about [The GoodFortune API] 
 
