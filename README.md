@@ -79,16 +79,21 @@ The amount of GoodFortune possessed by an individual FortuneCookie is determined
 
 ``` FIXED ATTRIBUTES * GAMEPLAY MULTIPLIERS * DIFFICULTY ```
 
-Certain FortuneCookie attributes are fixed and determined during the production of the batch.
+Certain FortuneCookie attributes are fixed and determined during the production of the batch. Other gameplay multipliers affect the GoodFortune value of a FortuneCookie and are behavioral and determined by gameplay dynamics.
 
-| FIXED ATTTIBUTES              | FORMULA                                                          |
-| ----------------------------- |------------------------------------------------------------------| 
-| ```FortuneCookienNumber```    | ``` ( LastFortuneCookieNumber - FortuneCookieNumber ) ^ 2 ```    |
-| ```BatchNumber```             | ``` ( ( last ( BatchNumber ) ) - BatchNumber ) ^ 2 ```           |
-| ```BatchQuantity```           | ``` ( 1 / BatchQuantity ) ```                                    |
-| ```BatchSequence```           | ``` ( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) ) ```      |
 
-Gameplay multipliers affect the GoodFortune value of a FortuneCookie. Behavioral; determined by gameplay.
+| TYPE              | VARIABLE                      | FORMULA                                                          |
+| ----------------- | ----------------------------- |------------------------------------------------------------------| 
+| FIXED             | ```FortuneCookienNumber```    | ``` ( LastFortuneCookieNumber - FortuneCookieNumber ) ^ 2 ```    |
+| FIXED             | ```BatchNumber```             | ``` ( ( last ( BatchNumber ) ) - BatchNumber ) ^ 2 ```           |
+| FIXED             | ```BatchQuantity```           | ``` ( 1 / BatchQuantity ) ```                                    |
+| FIXED             | ```BatchSequence```           | ``` ( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) ) ```      |
+| GAMEPLAY          | ```SalePrice```               | (std deviations from the mean) is the multiplier. (( or should this be last sale price? - it would be more realtime and punishing ))    |
+| GAMEPLAY          | ```PriceChange```             | what has the price done           |
+| GAMEPLAY          | ```InitialOwnerGoodFortune```           | ``` (Top 25%: 2x) (25%-50%: 1.5x) (50%-75%: 1.25x) (75%-100%: 1.1x) ``` XOXO !! The GoodFortune Multiplier !! XOXO When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. We reserve the right to refuse transactions from any address choose, especially if we beileve it to be an aggregation service.                                    |
+| GAMEPLAY          | ```InitialOwnerPublicTweet```           | ``` 1.1 ``` +10% multiplier, one time opportunity during the bake sale.      |
+| GAMEPLAY          | ```PerviousOwners```           | ``` 1.05 ^ n ``` note: cost is 3.5% to exchange owners, so net 1.5%       |
+
 
 | GAMEPLAY MULTIPLIERS                 | FORMULA                                                                     |
 | ------------------------------------ |-----------------------------------------------------------------------------| 
