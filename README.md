@@ -45,7 +45,7 @@ Bake Sales are official FortuneCookies events when new FortuneCookies are sold t
 <img width="1406" alt="fc_bake-sale" src="https://user-images.githubusercontent.com/5216274/40892892-ca9100b0-676a-11e8-8374-81d099248ff5.png">
 
 
-| BAKE SALE TYPES                      | DESCRIPTION                                                                 |
+| SALE TYPES                           | DESCRIPTION                                                                 |
 | ------------------------------------ |-----------------------------------------------------------------------------| 
 | Reverse Auction                      | fixed quantity; high > low variable price; sold sequentially.                       |
 | VanillaAuction                       | Use cases include time-based drip auction (like CryptoKitties), single auction                      |
@@ -80,7 +80,7 @@ The amount of GoodFortune possessed by an individual FortuneCookie is determined
 #### Fixed Attributes
 Fixed and determined during the production of the batch.
 
-| Fixed Attributes              | Calculation                                                      |
+| FIXED ATTTIBUTES              | FORMULA                                                          |
 | ----------------------------- |------------------------------------------------------------------| 
 | ```FortuneCookienNumber```    | ``` ( LastFortuneCookieNumber - FortuneCookieNumber ) ^ 2 ```    |
 | ```BatchNumber```             | ``` ( ( last ( BatchNumber ) ) - BatchNumber ) ^ 2 ```           |
@@ -90,7 +90,7 @@ Fixed and determined during the production of the batch.
 #### Gameplay Multipliers
 Behavioral; determined by gameplay.
 
-| Gameplay Multipliers                 | Calculation                                                                 |
+| GAMEPLAY MULTIPLIERS                 | FORMULA                                                                     |
 | ------------------------------------ |-----------------------------------------------------------------------------| 
 | ``` SalePrice ```                    | (std deviations from the mean) is the multiplier. (( or should this be last sale price? - it would be more realtime and punishing ))                       |
 | ``` PriceChange ```                  | what has the price done                      |
