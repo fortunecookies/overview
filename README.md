@@ -113,13 +113,19 @@ We offer simple a simple API to request information about a FortuneCookies playe
 ### The GoodFortune Oracle
 The GoodFortune Oracle is a smart contract on Ethereum that serves two important functions. First, it contains the official formula for calculating GoodFortune the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as contains pointers to every official Batch contract.
 
+```
+function goodFortuneOf(address _owner) external view returns (uint256);
+function countFortuneCookies(address _owner) external view returns (uint256);
+function calculateGoodFortune(address _owner) external view returns (uint256);
+```
+
 The GoodFortune Oracle exists at the following Ethereum network addresses:
 
-| NETWORK             | ADDRESS                      | 
-| ------------------- | ----------------------------- |
-| Main                | ```0x12345678901234567890```  | 
-| Rinkeby             | ```0x12345678901234567890```  | 
-| Ropsten             | ```0x12345678901234567890```  | 
+| NETWORK             | ADDRESS                                           | 
+| ------------------- | ------------------------------------------------- |
+| Main                | ```0x1234567890123456789012345678901234567890```  | 
+| Rinkeby             | ```0x1234567890123456789012345678901234567890```  | 
+| Ropsten             | ```0x1234567890123456789012345678901234567890```  | 
 
 ## Spread Good Fortune in the World
 The Fortune Friends are committed to spreading good fortune, both digitally and IRL. It's our mission to use new technology as a powerful force of change, empowerment, and self-organization.
