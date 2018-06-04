@@ -121,5 +121,7 @@ We fairly compensate artists with between 10-20% of every sale, and 1.25% of eve
 ### FortuneCookies Foundation
 We donate 10% of every sale to the FortuneCookies Foundation, a non-profit committed to spreading good fortune by investing in social impact bounties that matter to our community. Submit an idea at [FortuneCookies Foundation](http://fortunecookies.foundation). What change will you bounty?
 
+<img width="1294" alt="screen shot 2018-06-03 at 8 42 12 pm" src="https://user-images.githubusercontent.com/5216274/40893178-b4401e00-676e-11e8-85d3-69ae50bca059.png">
+
 ### Community Culture
 We want to promote a fun, open cult-ure. We value creativity, positivity, change, boldness, fun, and play. 
