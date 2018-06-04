@@ -94,19 +94,23 @@ Certain FortuneCookie attributes are fixed and determined during the production 
 | FIXED             | ```BatchQuantity```           | ``` ( 1 / BatchQuantity ) ```                                    |
 
 | TYPE              | VARIABLE                      | FORMULA                                                          |
+| ----------------- | ----------------------------- |------------------------------------------------------------------| 
 | SET ON SALE       | ```FortuneCookieNumber```    | ``` ( LastFortuneCookieNumber - FortuneCookieNumber ) ^ 2 ```    |
 | SET ON SALE       | ```BatchSequence```           | ``` ( ( ( BatchLast - FortuneCookieID ) / ( Range ) ) ) ```      |
 | SET ON SALE       | ```SalePrice```               | (std deviations from the mean) is the multiplier. (( or should this be last sale price? - it would be more realtime and punishing ))    |
 
 | TYPE              | VARIABLE                      | FORMULA                                                          |
+| ----------------- | ----------------------------- |------------------------------------------------------------------| 
 | SET ON OPEN          | ```InitialOwnerGoodFortune```           | ``` (Top 25%: 2x) (25%-50%: 1.5x) (50%-75%: 1.25x) (75%-100%: 1.1x) ``` XOXO !! The GoodFortune Multiplier !! XOXO When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. We reserve the right to refuse transactions from any address choose, especially if we beileve it to be an aggregation service.                                    |
 | SET ON OPEN          | ```InitialOwnerPublicTweet```           | ``` 1.1 ``` +10% multiplier, one time opportunity during the bake sale.      |
 
 | TYPE              | VARIABLE                      | FORMULA                                                          |
+| ----------------- | ----------------------------- |------------------------------------------------------------------| 
 | GAMEPLAY          | ```PreviousOwners```           | ``` 1.05 ^ n ``` note: cost is 3.5% to exchange owners, so net 1.5%       |
 | GAMEPLAY          | ```PriceChange```             | what has the price done           |
 
 | TYPE              | VARIABLE                      | FORMULA                                                          |
+| ----------------- | ----------------------------- |------------------------------------------------------------------| 
 | DIFFICULTY          | ```TotalGoodFortuneOutstanting```           | ``` (0 - 1,000,000: 1) (1,000,001 - 10,000,000: 0.8) (10,000,001 - 100,000,000: 0.5) (100,000,001 - 1,000,000,000: 0.2) ```       |
 
 ### The GoodFortune API
