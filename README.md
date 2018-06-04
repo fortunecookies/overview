@@ -93,13 +93,7 @@ Certain FortuneCookie attributes are fixed and determined during the production 
 | GAMEPLAY          | ```InitialOwnerGoodFortune```           | ``` (Top 25%: 2x) (25%-50%: 1.5x) (50%-75%: 1.25x) (75%-100%: 1.1x) ``` XOXO !! The GoodFortune Multiplier !! XOXO When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. We reserve the right to refuse transactions from any address choose, especially if we beileve it to be an aggregation service.                                    |
 | GAMEPLAY          | ```InitialOwnerPublicTweet```           | ``` 1.1 ``` +10% multiplier, one time opportunity during the bake sale.      |
 | GAMEPLAY          | ```PreviousOwners```           | ``` 1.05 ^ n ``` note: cost is 3.5% to exchange owners, so net 1.5%       |
-
-| TOTAL GOODFORTUNE IN WORLD                  | DIFFICULTY                                                          |
-| ------------------------------------------- |------------------------------------------------------------------| 
-| 0 - 1,000,000                               | ``` * 1 ```    |
-| 1,000,001 - 10,000,000                      | ``` * 0.8 ```           |
-| 10,000,001 - 100,000,000                    | ``` * 0.5 ```                                    |
-| 100,000,001 - 1,000,000,000                 | ``` * 0.2 ```      |
+| DIFFICULTY          | ```TotalGoodFortuneOutstanting```           | ``` (0 - 1,000,000: 1) (1,000,001 - 10,000,000: 0.8) (10,000,001 - 100,000,000: 0.5) (100,000,001 - 1,000,000,000: 0.2) ```       |
 
 ### The GoodFortune API
 We offer simple a simple API to request information about a FortuneCookies player address. Our services cache blockchain information, so it's easier/free to lookup information from the ```GoodFortune Oracle```. Easily ```getFortuneCookies``` or ```getGoodFortune``` balance for a player address. Learn more about [The GoodFortune API] 
