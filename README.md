@@ -42,6 +42,10 @@ Batches are designed in collaboration with an artist. The entire experience of t
 ### The Bake Sale
 Bake Sales are official FortuneCookies events when new FortuneCookies are sold to the public. Most Bake Sales will occur on our website, however some may occur offline or in person for special occasions.
 
+
+
+#### Sale Types
+
 | BAKE SALE TYPES                      | DESCRIPTION                                                                 |
 | ------------------------------------ |-----------------------------------------------------------------------------| 
 | Reverse Auction                      | fixed quantity; high > low variable price; sold sequentially.                       |
