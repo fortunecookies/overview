@@ -44,7 +44,6 @@ Bake Sales are official FortuneCookies events when new FortuneCookies are sold t
 
 <img width="1406" alt="fc_bake-sale" src="https://user-images.githubusercontent.com/5216274/40892892-ca9100b0-676a-11e8-8374-81d099248ff5.png">
 
-#### Sale Types
 
 | BAKE SALE TYPES                      | DESCRIPTION                                                                 |
 | ------------------------------------ |-----------------------------------------------------------------------------| 
