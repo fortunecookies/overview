@@ -28,6 +28,8 @@ FortuneCookies are secured by Ethereum. Technically, FortuneCookies are ERC721 t
 ## Collect Digital FortuneCookies
 FortuneCookies are collectible charms with a surprise.
 
+<img width="1619" alt="screen shot 2018-06-03 at 8 53 53 pm" src="https://user-images.githubusercontent.com/5216274/40893592-53d9384c-6770-11e8-80c0-f5eb582f2b85.png">
+
 ### The Charm
 The charm is the exterior shell of the FortuneCookie, and contains the surprise hidden inside. All charms are the same for a whole batch, which makes it easy to associate your FortuneCookie with a batch when it's in your wallet – since the charm also functions as your collectibles icon.
 
