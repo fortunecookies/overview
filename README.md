@@ -104,9 +104,11 @@ Certain FortuneCookie attributes are fixed and determined during the production 
 ### The GoodFortune API
 We offer simple a simple API to request information about a FortuneCookies player address. Our services cache blockchain information, so it's easier/free to lookup information from the ```GoodFortune Oracle```. Easily ```getFortuneCookies``` or ```getGoodFortune``` balance for a player address. Learn more about [The GoodFortune API] 
 
+```
 ```GetFortuneCookies() returns an array of the FortuneCookies owned by an```
 
 ```GetGoodFortune() returns the total GoodFortune possessed by a player address```
+```
 
 ### The GoodFortune Oracle
 The GoodFortune Oracle is a smart contract on Ethereum that serves two important functions. First, it contains the official formula for calculating GoodFortune the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as contains pointers to every official Batch contract
