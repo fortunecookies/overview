@@ -102,15 +102,15 @@ Behavioral; determined by gameplay.
 
 Even with all the formulas above applied, it could become more difficult to earn GoodFortune over time. If we chose to pursue that route
 
->#### The GoodFortune API
->We offer simple a simple API to request information about a FortuneCookies player address. Our services cache blockchain information, making it easier to use when you need it. Easily get FortuneCookies or get GoodFortune balance for a player address. Learn more about [The GoodFortune API] 
+#### The GoodFortune API
+We offer simple a simple API to request information about a FortuneCookies player address. Our services cache blockchain information, making it easier to use when you need it. Easily get FortuneCookies or get GoodFortune balance for a player address. Learn more about [The GoodFortune API] 
 
 ```GetFortuneCookies() returns an array of the FortuneCookies owned by an```
 
->GetGoodFortune() returns the total GoodFortune possessed by a player address
->
->#### The GoodFortune Oracle
->The GoodFortune Oracle is a smart contract on Ethereum that serves two important functions. First, it contains the official >formula for calculating GoodFortune the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as >contains pointers to every official Batch contract
+```GetGoodFortune() returns the total GoodFortune possessed by a player address```
+
+#### The GoodFortune Oracle
+The GoodFortune Oracle is a smart contract on Ethereum that serves two important functions. First, it contains the official formula for calculating GoodFortune the calculation for determining the amount of GoodFortune a FortuneCookie has, as well as contains pointers to every official Batch contract
 
 ## Spread Good Fortune in the World
 The Fortune Friends are committed to spreading good fortune, both digitally and IRL. It's our mission to use new technology as a powerful force of change, empowerment, and self-organization.
