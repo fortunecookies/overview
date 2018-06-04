@@ -75,11 +75,11 @@ A player's GoodFortune is calculated by totaling the GoodFortune of their Fortun
 
 ```GoodFortune(player) = sum((GoodFortune(FortuneCookie1)), (GoodFortune(FortuneCookie2)), ...)```
 
-The amount of GoodFortune possessed by an individual FortuneCookie is determined by a combination of fixed and variable   attributes.
+The amount of GoodFortune possessed by an individual FortuneCookie is determined by a combination of fixed and variable   attributes, and is harder to earn over time.
 
 ``` FIXED ATTRIBUTES * GAMEPLAY MULTIPLIERS * DIFFICULTY ```
 
-Certain FortuneCookie attributes are fixed and determined during the production of the batch. Other gameplay multipliers affect the GoodFortune value of a FortuneCookie and are behavioral and determined by gameplay dynamics.
+Certain FortuneCookie attributes are fixed and determined during the production of the batch. Other gameplay multipliers affect the GoodFortune value of a FortuneCookie and are behavioral and determined by gameplay dynamics. GoodFortune is harder to earn over time. This is the GoodFortune Difficulty Curve. (Is this bias already built into the weighting of the variables?)
 
 
 | TYPE              | VARIABLE                      | FORMULA                                                          |
@@ -92,18 +92,7 @@ Certain FortuneCookie attributes are fixed and determined during the production 
 | GAMEPLAY          | ```PriceChange```             | what has the price done           |
 | GAMEPLAY          | ```InitialOwnerGoodFortune```           | ``` (Top 25%: 2x) (25%-50%: 1.5x) (50%-75%: 1.25x) (75%-100%: 1.1x) ``` XOXO !! The GoodFortune Multiplier !! XOXO When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. We reserve the right to refuse transactions from any address choose, especially if we beileve it to be an aggregation service.                                    |
 | GAMEPLAY          | ```InitialOwnerPublicTweet```           | ``` 1.1 ``` +10% multiplier, one time opportunity during the bake sale.      |
-| GAMEPLAY          | ```PerviousOwners```           | ``` 1.05 ^ n ``` note: cost is 3.5% to exchange owners, so net 1.5%       |
-
-
-| GAMEPLAY MULTIPLIERS                 | FORMULA                                                                     |
-| ------------------------------------ |-----------------------------------------------------------------------------| 
-| ``` SalePrice ```                    | (std deviations from the mean) is the multiplier. (( or should this be last sale price? - it would be more realtime and punishing ))                       |
-| ``` PriceChange ```                  | what has the price done                      |
-| ``` InitialOwnerGoodFortune ```      | ``` (Top 25%: 2x) (25%-50%: 1.5x) (50%-75%: 1.25x) (75%-100%: 1.1x) ``` XOXO !! The GoodFortune Multiplier !! XOXO When you buy FortuneCookies from Official Bake Sales, we offer a bonus incentive for our loyal players. We reserve the right to refuse transactions from any address choose, especially if we beileve it to be an aggregation service.    |
-| ``` InitialOwnerPublicTweet ```      | ``` 1.1 ``` +10% multiplier, one time opportunity during the bake sale.     |
-| ``` PreviousOwners ```               | ``` 1.05 ^ n ``` note: cost is 3.5% to exchange owners, so net 1.5%         |
-
-GoodFortune is harder to earn over time. This iis the GoodFortune Difficulty Curve. (Is this bias already built into the weighting of the variables?)
+| GAMEPLAY          | ```PreviousOwners```           | ``` 1.05 ^ n ``` note: cost is 3.5% to exchange owners, so net 1.5%       |
 
 | TOTAL GOODFORTUNE IN WORLD                  | DIFFICULTY                                                          |
 | ------------------------------------------- |------------------------------------------------------------------| 
