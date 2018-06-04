@@ -40,6 +40,13 @@ The charm is the exterior shell of the FortuneCookie, and contains the surprise 
 ### The Surprise
 The surprise is the goodness hidden inside your FortuneCookie that reveals itself to the player that opens the FortuneCookie for the first time. We achieve this by using your Ethereum address to generate pseudorandomness, which assigns you a resultant surprise from the available batch. Unlike regular fortune cookies, FortuneCookies surprises are actually made-for-you.
 
+| SURPRISE                             | DESCRIPTION                                                                  |
+| ------------------------------------ |----------------------------------------------------------------------------- | 
+| Lucky Saying                         | String of text; usually a proverb                |
+| Lucky Numbers                        | Array of numbers between 0-100; usually four              |
+| Artwork                              | Digital artwork                |
+| Nothing                              | Hey, it could happen.                                                        |
+
 ![image](https://user-images.githubusercontent.com/5216274/40895004-0c645644-677b-11e8-8d19-f46e8b3c0f8c.png)
 
 ### The Batch
