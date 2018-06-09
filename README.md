@@ -54,9 +54,24 @@ The surprise is the goodness hidden inside your FortuneCookie that reveals itsel
 ![image](https://user-images.githubusercontent.com/5216274/40895004-0c645644-677b-11e8-8d19-f46e8b3c0f8c.png)
 
 ### The Batch
-FortuneCookies Batches are limited edition releases that can produce anywhere between 1 and 1 million new FortuneCookies. Batches are the main grouping of FortuneCookies in the game; FortuneCookies from the same Batch have the same Charm – and they usually share similar surprises. Players are restricted to holding only 1 FortuneCookie from each batch at a time.
+FortuneCookies Batches are limited edition releases that can produce anywhere between 1 and 1 million new FortuneCookies. Batches are the main grouping of FortuneCookies in the game; FortuneCookies from the same Batch have the same Charm – and they usually share similar surprises. 
+
+dont know -> Players are restricted to holding only 1 FortuneCookie from each batch at a time.
 
 Batches are designed in collaboration with an artist. The entire experience of the batch, from the number of FortuneCookies produced, to the charm and the surprise hidden inside, are the vision of the artist.
+
+### The FortuneFamily
+
+Within each batch, there are 4 FortuneFamily possibilities. Each FortuneFamily represents <something> and occurrs with
+   
+| FortuneFamily                             | Rarity                                                                 |
+| ------------------------------------ |----------------------------------------------------------------------------- | 
+| FortuneFam1 (needs names)                         | 5%               |
+| FortuneFam2                        | 15%              |
+| FortuneFam3                              | 35%                |
+| FortuneFam4                              | 35%                                                        |
+
+
 
 ### The Bake Sale
 Bake Sales are official FortuneCookies events when new FortuneCookies are sold to the public. Most Bake Sales will occur on our website, however some may occur offline or in person for special occasions.
